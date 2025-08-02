@@ -136,7 +136,7 @@ This system uses feedback from the MPU6050 to adjust the motor output through th
 - **Failsafe** triggers beyond ±45°
 - **PID Stability** during motion
 
-[🎥 Watch Demo Video]([https://youtu.be/your_demo_link](https://youtube.com/shorts/IcyV9gzD1IM?si=FrDT6r6DSqdANZvg))
+[🎥 Watch Demo Video]([https://youtube.com/shorts/IcyV9gzD1IM?si=FrDT6r6DSqdANZvg])
 
 ---
 
