@@ -108,8 +108,6 @@ Used to control **two DC motors** independently with PWM signals.
 
 ![Wiring Diagram](assets/WireDiagram.jpg)
 
-> Ensure strong power and signal wiring for motors and sensors. Use capacitors and ferrite beads if needed to reduce noise.
-
 ---
 
 ## 🔄 Closed-Loop Control Diagram
