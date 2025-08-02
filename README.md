@@ -1,7 +1,6 @@
 # 🤖 Self-Balancing Robot with PID Control
 
-![Robot](assets/robot.jpg)
-![Closed Loop](assets/closed_loop_diagram.png)
+![Robot](assets/Bot.jpg)
 
 A self-balancing two-wheeled robot using **MPU6050** IMU and **PID control**, powered by an **Arduino UNO**. This robot maintains its upright position using closed-loop feedback from the MPU6050 sensor and dynamically adjusts motor output.
 
@@ -61,6 +60,8 @@ Two methods were used to tune the PID gains:
 
 ---
 
+![Mpu 6050 Datasets](assets/Mpu.jpg)
+
 ## 🧭 Sensor: MPU6050
 
 The **MPU6050** provides real-time orientation using gyroscope and accelerometer fusion.
@@ -79,11 +80,13 @@ The **MPU6050** provides real-time orientation using gyroscope and accelerometer
 
 ---
 
-## ⚙️ Motor Driver (L298N / L9110S)
+![L298N Datasets](assets/L298NPinout.jpg)
+
+## ⚙️ Motor Driver (L298N)
 
 Used to control **two DC motors** independently with PWM signals.
 
-### L298N Wiring (Sample)
+### L298N Wiring 
 
 | Function     | Arduino UNO |
 |--------------|-------------|
@@ -100,17 +103,10 @@ Used to control **two DC motors** independently with PWM signals.
 
 ---
 
-## 📊 Dataset Examples
-
-- `dataset/mpu6050_data.csv`: contains raw and filtered roll angle
-- `dataset/motor_output.csv`: shows motor PWM response
-- `dataset/pid_tuning_log.txt`: tracks trial values and notes
-
----
 
 ## 🧰 Wiring Diagram
 
-![Wiring Diagram](assets/wiring_diagram.png)
+![Wiring Diagram](assets/WireDiagram.jpg)
 
 > Ensure strong power and signal wiring for motors and sensors. Use capacitors and ferrite beads if needed to reduce noise.
 
@@ -118,7 +114,7 @@ Used to control **two DC motors** independently with PWM signals.
 
 ## 🔄 Closed-Loop Control Diagram
 
-![Closed Loop Diagram](assets/closed_loop_diagram.png)
+![Closed Loop Diagram](assets/Loop.jpg)
 
 This system uses feedback from the MPU6050 to adjust the motor output through the PID controller, achieving real-time balancing.
 
@@ -140,7 +136,7 @@ This system uses feedback from the MPU6050 to adjust the motor output through th
 - **Failsafe** triggers beyond ±45°
 - **PID Stability** during motion
 
-[🎥 Watch Demo Video](https://youtu.be/your_demo_link)
+[🎥 Watch Demo Video]([https://youtu.be/your_demo_link](https://youtube.com/shorts/IcyV9gzD1IM?si=FrDT6r6DSqdANZvg))
 
 ---
 
@@ -153,9 +149,11 @@ This project successfully demonstrates a self-balancing robot using **PID contro
 ## 👥 Team Members
 
 - **Dos Hansel Sihombing** – 235150301111001  
-- (Add more members if applicable)
+- **Adika Rizky Primantoro** – 235150301111011
+- **Muhammad Raka Naufal** – 235150307111004
+- **Muhammad Syauqi Fadillah** – 235150307111007
+- **Daffa Fawwaz Garibaldi** – 235150307111011
+- **Khalisa Nur Safira** – 235150307111012
 
 ---
-
-## 📁 Repository Structure
 
