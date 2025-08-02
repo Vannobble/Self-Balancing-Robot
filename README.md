@@ -1,6 +1,6 @@
 # 🤖 Self-Balancing Two-Wheeled Robot using MPU6050 and PID Control
 
-![Self Balancing Robot](https://raw.githubusercontent.com/username/self-balancing-robot/main/assets/selfbalancing.jpg)
+![Self Balancing Robot](Bot.jpg)
 
 ## Project Domain
 
